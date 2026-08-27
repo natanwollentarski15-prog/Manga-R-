@@ -7,15 +7,11 @@
 <body>
   <h1>Manga R, bring your manga to life.</h1>
   
-  <input type="file" id="imageInput" accept="image/*">
-  
-  <img id="preview" style="display: none; max-width: 400px; margin-top: 20px;">
-  
-  <br><br>
-  <button id="playButton">Play Manga</button>
+a  
+  <img id="preview" style="dmax-width: 400px; margin-top: 20px;  <br><br>
   
   <p id="status">Upload an image to get started.</p>
-
+tt
   <script>
     const imageInput = document.getElementById('imageInput');
     const preview = document.getElementById('preview');
@@ -34,13 +30,13 @@
         reader.readAsDataURL(file);
       }
     });
-
+ 
     playButton.addEventListener('click', function () {
       if (preview.src) {
         status.textContent = 'Playing manga... (demo)';
       } else {
-        status.textContent = 'Please upload an image first.';
-      }
+        status.textContent = Please irst.';
+      }o
     });
   </script>
 </body>
